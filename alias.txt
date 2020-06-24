@@ -1,2 +1,0 @@
-#自定义命令
-alias gosync='cd /mnt/e/updateLogs/synccode'

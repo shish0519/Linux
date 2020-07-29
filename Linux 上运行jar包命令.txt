@@ -1,0 +1,9 @@
+#Linux 上运行jar包命令 | 防止终端关闭停止运行
+
+nohup java -jar XXXXX.jar > xxxx.log &
+
+# nohup
+# 表示不挂断地运行命令
+
+# &
+# 表示这个命令放在后台执行

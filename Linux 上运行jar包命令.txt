@@ -7,3 +7,10 @@ nohup java -jar XXXXX.jar > xxxx.log &
 
 # &
 # 表示这个命令放在后台执行
+
+#查找进程
+ps -aux|grep XXXXX.jar| grep -v grep
+
+#查找进程号
+ps -aux|grep XXXXX.jar| grep -v grep | awk '{print $2}'
+kill -9 进程ID
